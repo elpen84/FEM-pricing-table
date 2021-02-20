@@ -42,9 +42,18 @@ a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+.price > * {
+  padding: var(--paddingx) var(--paddingy);
+}
+
 .community {
   background: var(--white);
-  padding: ;
 }
 
 .community h2 {
