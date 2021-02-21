@@ -31,6 +31,8 @@ body {
 }
 
 .price {
+  border-radius: 0.5rem;
+  overflow: hidden;
   @media only screen and(min-width: 62.5em) display: grid;
 }
 .subcription {
@@ -46,6 +48,11 @@ h1,
 h2,
 h3 {
   margin-top: 0;
+  line-height: 1.15rem;
+}
+
+h2 {
+  margin-bottom: 1.25rem;
 }
 
 .price > * {
@@ -70,4 +77,5 @@ h3 {
 .community p {
   font-size: 0.75rem;
   line-height: 1.75rem;
+  margin-bottom: 0;
 }
