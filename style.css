@@ -47,12 +47,18 @@ a {
 h1,
 h2,
 h3 {
+  font-weight: bold;
   margin-top: 0;
   line-height: 1.15rem;
 }
 
 h2 {
+  font-size: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+h3 {
+  font-size: 1.1rem;
 }
 
 .price > * {
@@ -64,11 +70,9 @@ h2 {
 }
 
 .community h2 {
-  font-size: 1.25rem;
   color: var(--cyan);
-  font-weight: bold;
 }
-.community h3 {
+.community .subtitle {
   font-size: 1rem;
   color: var(--yellow);
   font-weight: bold;
@@ -78,4 +82,25 @@ h2 {
   font-size: 0.75rem;
   line-height: 1.75rem;
   margin-bottom: 0;
+}
+
+.subcription,
+.why {
+  color: var(--ltgrey);
+}
+
+.subcription {
+  background-color: var(--cyan);
+}
+
+.subcription_price {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.subcription_price span {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 0.75rem;
 }
